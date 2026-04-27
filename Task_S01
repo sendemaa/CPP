@@ -1,0 +1,29 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    setlocale(0,"Russian");
+    float a; int b; double c,d; bool e;
+    cout <<"Введите первое значение (float):";
+    cin >> a;
+    cout <<"Введите второе значение (int):";
+    cin >> b;
+    cout <<"a+b=" << a+b << endl;
+    cout <<"Введите первое значение (float):";
+    cin >> a;
+    cout <<"Введите второе значение (double):";
+    cin >> c;
+    cout <<"a*c=" << a*c << endl;
+    cout <<"Введите первое значение (double):";
+    cin >> d;
+    cout << "Введите второе значение (bool, 0 or 1): ";
+    cin >> e;
+    cout << "d-e=" << d-e << endl;
+    cout <<"Введите первое значение (double):";
+    cin >> c;
+    cout <<"Введите второе значение (double):";
+    cin >> d;
+    cout << "c/d=" << c/d << endl;
+    return 0;
+}
