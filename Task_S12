@@ -1,0 +1,15 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int number=1;
+    int sum=0;
+    while (number<=1000){
+        if (number%7==0){
+            sum+=number;
+        }number+=4;
+    }
+    cout<< "Sum: " << sum;
+    return 0;
+}
