@@ -1,0 +1,16 @@
+#include <iostream>
+#include <fstream>
+using namespace std;
+
+int main()
+{
+    setlocale(0, "Russian");
+    int number, counter = 1;
+    ifstream File("output.txt");
+    while (File >> number) {
+    cout << counter << "е число- " << number   << endl;
+    counter++;
+    }
+    File.close();
+return 0;
+}
